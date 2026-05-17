@@ -1,2 +1,0 @@
-/usr/bin/ar qc libtiferet.a CMakeFiles/tiferet.dir/src/assets/errors.c.o CMakeFiles/tiferet.dir/src/utils/map.c.o CMakeFiles/tiferet.dir/src/utils/strutil.c.o CMakeFiles/tiferet.dir/src/utils/vector.c.o
-/usr/bin/ranlib libtiferet.a
