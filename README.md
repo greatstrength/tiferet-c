@@ -95,6 +95,20 @@ TIF_VERIFY(b != 0.0, TIF_ERR_DIVISION_BY_ZERO, "Cannot divide by zero");
 - [Runtime Contexts](docs/core/contexts.md)
 - [Utilities (TifMap, TifVector, strutil)](docs/core/utils.md)
 
+**Practical guides**
+- [Implementing TifExecutableEvent](docs/guides/events.md)
+- [Implementing Custom Services](docs/guides/interfaces.md)
+- [Wiring the Full Pipeline](docs/guides/contexts.md)
+
+**Domain guides**
+- [Error Domain](docs/guides/domain/error.md)
+- [Feature Domain](docs/guides/domain/feature.md)
+- [Dependency Injection Domain](docs/guides/domain/di.md)
+
+**Utility guides**
+- [TifMap](docs/guides/utils/map.md)
+- [strutil](docs/guides/utils/strutil.md)
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow.
