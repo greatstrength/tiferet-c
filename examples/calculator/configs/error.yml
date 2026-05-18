@@ -1,0 +1,9 @@
+# Error definitions for the calculator example.
+# NOTE: YAML repositories are not yet implemented in C; this file documents
+#       the structure that main.c wires programmatically.
+errors:
+  division_by_zero:
+    name: Division By Zero
+    message:
+      - lang: en_US
+        text: 'Cannot divide by zero'

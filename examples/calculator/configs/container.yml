@@ -1,0 +1,18 @@
+# Service configuration for the calculator example.
+# Maps each event ID to its module_path and class_name — the keys used
+# in TifServiceRegistry ("calc.events::AddEvent", etc.).
+# NOTE: YAML repositories are not yet implemented in C; this file documents
+#       the structure that main.c wires programmatically.
+attrs:
+  add_event:
+    module_path: calc.events
+    class_name: AddEvent
+  subtract_event:
+    module_path: calc.events
+    class_name: SubtractEvent
+  multiply_event:
+    module_path: calc.events
+    class_name: MultiplyEvent
+  divide_event:
+    module_path: calc.events
+    class_name: DivideEvent

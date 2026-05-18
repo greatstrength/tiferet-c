@@ -1,0 +1,34 @@
+# Feature workflow definitions for the calculator example.
+# Each feature maps to a single domain event step.
+# NOTE: YAML repositories are not yet implemented in C; this file documents
+#       the structure that main.c wires programmatically.
+features:
+  calc:
+    add:
+      name: Add Number
+      description: Adds one number to another
+      commands:
+        - attribute_id: add_event
+          name: Add a and b
+          data_key: result
+    subtract:
+      name: Subtract Number
+      description: Subtracts one number from another
+      commands:
+        - attribute_id: subtract_event
+          name: Subtract b from a
+          data_key: result
+    multiply:
+      name: Multiply Number
+      description: Multiplies one number by another
+      commands:
+        - attribute_id: multiply_event
+          name: Multiply a and b
+          data_key: result
+    divide:
+      name: Divide Number
+      description: Divides one number by another
+      commands:
+        - attribute_id: divide_event
+          name: Divide a by b
+          data_key: result
